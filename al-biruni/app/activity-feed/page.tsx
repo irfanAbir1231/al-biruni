@@ -79,7 +79,7 @@ export default function ActivityFeedPage() {
       </h1>
       <div className="w-full max-w-2xl flex flex-col gap-6 overflow-y-auto">
         {activities.map((a, i) => {
-          const meta = typeMeta[a.type];
+          const meta = typeMeta[a.type as keyof typeof typeMeta];
           return (
             <div
               key={i}

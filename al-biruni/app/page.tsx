@@ -130,58 +130,6 @@ export default function Home() {
           ))}
         </ul>
       </section>
-
-      {/* Footer */}
-      <footer className="mt-auto w-full bg-gray-900 text-gray-100 py-10 px-4">
-        <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-8">
-          <div>
-            <h4 className="font-bold mb-2">Contact</h4>
-            <p className="text-sm">
-              albiruni@university.edu
-              <br />
-              123 Innovation Ave, City
-            </p>
-          </div>
-          <div>
-            <h4 className="font-bold mb-2">Quick Links</h4>
-            <ul className="text-sm space-y-1">
-              <li>
-                <Link href="#">Home</Link>
-              </li>
-              <li>
-                <Link href="#courses">Courses</Link>
-              </li>
-              <li>
-                <Link href="#">Seminars</Link>
-              </li>
-              <li>
-                <Link href="#">Blog</Link>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h4 className="font-bold mb-2">Socials</h4>
-            <div className="flex gap-4 mt-1">
-              <a href="#" className="hover:text-blue-400" aria-label="Twitter">
-                Twitter
-              </a>
-              <a href="#" className="hover:text-blue-400" aria-label="LinkedIn">
-                LinkedIn
-              </a>
-              <a
-                href="#"
-                className="hover:text-blue-400"
-                aria-label="Instagram"
-              >
-                Instagram
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="text-center text-xs text-gray-400 mt-8">
-          © 2024 Al Biruni Research & Innovation Society
-        </div>
-      </footer>
     </div>
   );
 }
